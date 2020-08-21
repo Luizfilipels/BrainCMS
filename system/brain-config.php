@@ -5,46 +5,46 @@
 	}
 	
 	/* Database Setting */
-	$db['host'] = '127.0.0.1'; //Mysql's Host
+	$db['host'] = 'localhost'; //Mysql's Host
 	$db['port'] = '3306'; //Mysql's port
-	$db['user'] = "root"; //Mysql's user
-	$db['pass'] = '*****'; //Mysql's password
+	$db['user'] = "habbo"; //Mysql's user
+	$db['pass'] = 'password'; //Mysql's password
 	$db['db'] = "hotel"; //Mysql's database
 	
 	/* Emu Settings */
-	$config['hotelEmu'] = 'plusemu'; // plusemu // arcturus
+	$config['hotelEmu'] = 'arcturus'; // plusemu // arcturus
 
 	/* Client Setting */
-	$hotel['emuHost'] = "127.0.0.1"; //IP of VPS//IP of Proxy
+	$hotel['emuHost'] = "168.227.112.31"; //IP of VPS//IP of Proxy
 	$hotel['emuPort'] = "30000";  //Port of VPS//Port of Proxy
 	$hotel['staffCheckClient'] = false; //Enable the staff pin in the client (true) or disable it (false)
 	$hotel['staffCheckClientMinimumRank'] = 3; //Minium staff rank to get the staff pin in the client
 	$hotel['homeRoom'] = '0'; //Set the start room when you get in the hotel
-	$hotel['external_Variables'] = "http://127.0.0.1/swf/gamedata/external_variables.txt?v=7";
-	$hotel['external_Variables_Override'] = "http://127.0.0.1/swf/gamedata/override/external_override_variables.txt?v=6";
-	$hotel['external_Texts'] = "http://127.0.0.1/swf/gamedata/external_flash_texts.txt";
-	$hotel['external_Texts_Override'] = "http://127.0.0.1/swf/gamedata/override/external_flash_override_texts.txt";
-	$hotel['productdata'] = "http://127.0.0.1/swf/gamedata/productdata.txt";
-	$hotel['furnidata'] = "http://127.0.0.1/swf/gamedata/furnidata.xml";
-	$hotel['figuremap'] = "http://127.0.0.1/swf/gamedata/figuremap.xml";
-	$hotel['figuredata'] = "http://127.0.0.1/swf/gamedata/figuredata.xml";
-	$hotel['swfFolder'] = "http://127.0.0.1/swf/gordon/PRODUCTION-201701242205-837386173";
-	$hotel['swfFolderSwf'] = "http://127.0.0.1/swf/gordon/PRODUCTION-201701242205-837386173/habbo2.swf";
+	$hotel['external_Variables'] = "http://shitel.com.br/swf/gamedata/external_variables.txt?v=7";
+	$hotel['external_Variables_Override'] = "http://shitel.com.br/swf/gamedata/override/external_override_variables.txt?v=6";
+	$hotel['external_Texts'] = "http://shitel.com.br/swf/gamedata/external_flash_texts.txt";
+	$hotel['external_Texts_Override'] = "http://shitel.com.br/swf/gamedata/override/external_flash_override_texts.txt";
+	$hotel['productdata'] = "http://shitel.com.br/swf/gamedata/productdata.txt";
+	$hotel['furnidata'] = "http://shitel.com.br/swf/gamedata/furnidata.xml";
+	$hotel['figuremap'] = "http://shitel.com.br/swf/gamedata/figuremap.xml";
+	$hotel['figuredata'] = "http://shitel.com.br/swf/gamedata/figuredata.xml";
+	$hotel['swfFolder'] = "http://shitel.com.br/swf/gordon/PRODUCTION-202006192205-424220153";
+	$hotel['swfFolderSwf'] = "http://shitel.com.br/swf/gordon/PRODUCTION-202006192205-424220153/Habbo.swf";
 	$hotel['onlineCounter'] = true; // Enable the user count in the client.
 	$hotel['diamonds.enabled'] = true; // Enable diamonds in the hotel.
 	
 	/* Website Setting */
-	$config['hotelUrl'] = "http://127.0.0.1";//Address of your hotel. Does not end with a "/"
+	$config['hotelUrl'] = "http://shitel.com.br";//Address of your hotel. Does not end with a "/"
 	$config['skin'] = "brain"; //Skin/template of your website
 	$config['lang'] = "en"; //Language of your website en/nl/es
-	$config['hotelName'] = "Brain"; //Name of your hotel
-	$config['favicon'] = "http://127.0.0.1/templates/brain/style/images/favicon/favicon.ico";
+	$config['hotelName'] = "Shitel"; //Name of your hotel
+	$config['favicon'] = "http://shitel.com.br/templates/brain/style/images/favicon/favicon.ico";
 	$config['staffCheckHk'] = false; //Enable the staff pin in the housekeeping (true) or disable it (false)
 	$config['staffCheckHkMinimumRank'] = 3; //Minium staff rank to get the staff pin in the housekeeping
 	$config['maintenance'] = false; //Enable the maintenance of your website (true) or disable it (false)
 	$config['maintenancekMinimumRankLogin'] = 3; //Minium staff rank to login when the website is in maintenance
-	$config['groupBadgeURL'] = "http://127.0.0.1/swf/habbo-imaging/badge.php?badge=";
-	$config['badgeURL'] = "http://127.0.0.1/swf/c_images/album1584/"; 
+	$config['groupBadgeURL'] = "http://shitel.com.br/swf/habbo-imaging/badge.php?badge=";
+	$config['badgeURL'] = "http://shitel.com.br/swf/c_images/album1584/"; 
 	$config['userLikeEnable'] = true; // Enable user likes 
 	$config['newsCommandEnable'] = true; //Enable news commands
 	$config['newsCommandFilter'] = true; //Enable wordfilter on news commands (the filter use the db tabels wordfilter and wordfilter_characters)
@@ -76,7 +76,7 @@
 	$config['twitterEnable'] = false;
 	
 	/* Register Setting */
-	$config['startMotto'] = "Welkom in Brain!"; //Regsiter start motto
+	$config['startMotto'] = "Bem-vindo ao Shitel!"; //Regsiter start motto
 	$config['credits']	= "10000";
 	$config['duckets']	= "20000";
 	$config['diamonds']	= "10";
