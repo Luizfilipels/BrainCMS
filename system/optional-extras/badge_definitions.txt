@@ -1,5 +1,5 @@
 PHP:
-define('DATABASENAME', 'habbo'); // change this to your database name
+define('DATABASENAME', 'hotel'); // change this to your database name
 
 $get = glob('c_images/album1584/*.{gif,GIF}', GLOB_BRACE);
 foreach($get as $badge){
